@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "providers": ["bing", "mymemory"],
+  "targetLang": "auto",
+  "shortcut": "Ctrl+Shift+T",
+  "panelWidth": 480,
+  "lookupWords": true,
+  "maxChars": 20000,
+  "language": "auto",
+  "llm": {
+    "enabled": false,
+    "baseUrl": "https://api.deepseek.com/v1",
+    "apiKey": "",
+    "model": "deepseek-chat"
+  }
+}

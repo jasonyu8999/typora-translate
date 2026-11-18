@@ -1,0 +1,19 @@
+# Local development artifacts — NOT part of the public repository.
+# The published project only needs install.ps1/uninstall.ps1, src/, config/,
+# tests/, tools/ (e2e), docs/ and README/LICENSE.
+/dev/
+
+# Node / Python caches
+node_modules/
+__pycache__/
+*.pyc
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Logs and local state
+*.log
